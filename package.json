@@ -1,0 +1,29 @@
+{
+  "name": "tikpog-front",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.1",
+    "cookie-universal-nuxt": "^2.1.4",
+    "core-js": "^3.9.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "nuxt": "^2.15.3",
+    "socket.io-client": "^4.1.3",
+    "vue": "^2.6.14",
+    "vue-server-renderer": "^2.6.14",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.15.3",
+    "@nuxt/typescript-build": "^2.1.0",
+    "@nuxtjs/vuetify": "^1.11.3",
+    "@types/lodash": "^4.14.172"
+  }
+}

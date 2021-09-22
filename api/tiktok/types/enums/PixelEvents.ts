@@ -1,0 +1,16 @@
+export enum EPixelEvent {
+  ViewContent = 'ON_WEB_DETAIL',
+  ClickButton = 'BUTTON',
+  Search = 'ON_WEB_SEARCH',
+  AddToWishlist = 'ON_WEB_ADD_TO_WISHLIST',
+  AddToCart = 'ON_WEB_CART',
+  InitiateCheckout = 'INITIATE_ORDER',
+  AddPaymentInfo = 'ADD_BILLING',
+  CompletePayment = 'SHOPPING',
+  PlaceAnOrder = 'ON_WEB_ORDER',
+  Contact = 'CONSULT',
+  Download = 'DOWNLOAD_START',
+  SubmitForm = 'FORM',
+  CompleteRegistration = 'ON_WEB_REGISTER',
+  Subscribe = 'ON_WEB_SUBSCRIBE',
+}
